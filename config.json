@@ -4,6 +4,6 @@
 	"name": "AziranBot",
 	"auto-night-skip":"false",
 	"login-enabled":"true",
-	"register-cmd":"/register (type_ur_pass_here(remember_no_spaces)) (type_ur_pass_here(remember_no_spaces))",
-	"login-cmd":"/login (type_ur_pass_here)"
+	"register-cmd":"/register julo99 julo99",
+	"login-cmd":"/login julo99"
 }
