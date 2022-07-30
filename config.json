@@ -1,6 +1,6 @@
 {
-	"ip":"AziranWorld",
-	"port": 30173,
+	"ip" : "aziran.aternos.me",
+	"puerto" : 30173 ,
 	"name": "AziranWorld",
 	"auto-night-skip":"false",
 	"login-enabled":"true",
