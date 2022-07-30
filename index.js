@@ -10,8 +10,8 @@ var connected = 0;
 var actions = [ 'forward', 'back', 'left', 'right']
 var lastaction;
 var pi = 3.14159;
-var moveinterval = 2; // 2 second movement interval
-var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
+var moveinterval = 1; // 2 second movement interval
+var maxrandom = 3; // 0-5 seconds added to movement interval (randomly)
 var host = data["ip"];
 var username = data["name"]
 var nightskip = data["auto-night-skip"]
@@ -39,18 +39,15 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Logged In")
-	bot.chat("hello");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Subscribe To Easy Gamer : https://www.youtube.com/channel/UCk575VDlrCsv1Gy2XZQ1bSA")
 	first = false;
 	}
 	else{
-		bot.chat("Subscribe To MannuG : https://www.youtube.com/channel/UCSZHRnBue50ImBKeR6k6eDg")
 		first = true;
 	}
   }, 3600000 * i); 
