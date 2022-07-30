@@ -1,7 +1,7 @@
 {
 	"ip":"aziran.aternos.me",
 	"port": 30173,
-	"name": "AziranBot",
+	"name": "AziranWorld",
 	"auto-night-skip":"false",
 	"login-enabled":"true",
 	"register-cmd":"/register julo99 julo99",
